@@ -1,8 +1,8 @@
-# dsh-browser bundle patch: mounts the plugin into a dsh profile.
+# dsh-browser-bsk bundle patch: mounts the plugin into a dsh profile.
 # Registers browse_navigate / browse_snapshot / browse_click / browse_fill /
 # browse_screenshot / browse_observe tools backed by the bsk CLI.
 #
-# Install: `dsh plugin add dsh-browser`
+# Install: `dsh plugin add dsh-browser-bsk`
 - insert:
-    - id: dsh-browser
-      name: dsh-browser
+    - id: dsh-browser-bsk
+      name: dsh-browser-bsk

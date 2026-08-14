@@ -2,7 +2,7 @@ import type { Context } from '@deepseek-ai/cordis';
 import { defineTool } from '@deepseek-ai/dsh-tools';
 import { execFileSync } from 'node:child_process';
 
-export const name = 'dsh-browser';
+export const name = 'dsh-browser-bsk';
 export const inject = ['tools'];
 
 // Lazily-managed bsk session id.
